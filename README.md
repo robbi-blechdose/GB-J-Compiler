@@ -20,10 +20,13 @@ Standard library documentation: TBA
 ### Installation
 
 Install Java on your machine (in case you haven't already).
+
 Extract the release ZIP into a directory of your choice.
+
 Done!
 
 ### Usage
 
 The GB-J Compiler is a command-line tool. It can be run with `java -jar GB-J-Compiler.jar`
+
 To learn about options and flags, simply run it with `-help`
