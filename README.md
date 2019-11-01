@@ -2,6 +2,8 @@
 A compiler for the language GB-J targeting the GameBoy
 ---
 
+Website: TBA
+
 Language documentation: TBA
 
 Standard library documentation: TBA
@@ -19,7 +21,7 @@ Standard library documentation: TBA
 
 ### Installation
 
-Install Java on your machine (in case you haven't already).
+Install Java (minimum Java 8) on your machine (in case you haven't already).
 
 Extract the release ZIP into a directory of your choice.
 
