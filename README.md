@@ -8,8 +8,8 @@ Standard library documentation: TBA
 
 ### Features
 
+- The language GB-J is tailored to the GameBoy
 - Compiles GB-J to RGBDS syntax assembly and then into a GameBoy (Color) ROM
-- GB-J is tailored to the GameBoy
 - An extensive standard library for:
     - Graphics
     - Input
