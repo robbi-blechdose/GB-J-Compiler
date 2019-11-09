@@ -6,7 +6,7 @@ Website: TBA
 
 Language documentation: TBA
 
-Standard library documentation: TBA
+Standard library documentation: https://robbi-blechdose.github.io/gb-j-compiler_stdlib/
 
 ### Features
 
