@@ -4,7 +4,7 @@ A compiler for the language GB-J targeting the GameBoy
 
 Website: TBA
 
-Language documentation: TBA
+Language documentation: https://robbi-blechdose.github.io/gb-j-compiler_lang/
 
 Standard library documentation: https://robbi-blechdose.github.io/gb-j-compiler_stdlib/
 
