@@ -1,6 +1,6 @@
 /**
  * The GB-J Compiler
- * Copyright (C) 2019 - 2020 robbi-blechdose
+ * Copyright (C) 2019 - 2021 robbi-blechdose
  * Licensed under GNU AGPLv3
  * (See LICENSE.txt for full license)
  */
@@ -9,7 +9,6 @@ package de.jc.gbjc.main.Parsing;
 import de.jc.gbjc.main.Lexing.Token;
 import de.jc.gbjc.main.Lexing.Token.TokenType;
 import de.jc.gbjc.main.Parsing.AbstractSyntaxTree.ASTType;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.jupiter.api.AfterEach;

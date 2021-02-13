@@ -1,6 +1,6 @@
 /**
  * The GB-J Compiler
- * Copyright (C) 2019 - 2020 robbi-blechdose
+ * Copyright (C) 2019 - 2021 robbi-blechdose
  * Licensed under GNU AGPLv3
  * (See LICENSE.txt for full license)
  */
