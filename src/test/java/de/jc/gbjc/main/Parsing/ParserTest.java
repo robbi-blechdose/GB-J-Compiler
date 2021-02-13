@@ -68,5 +68,22 @@ public class ParserTest
         assertEquals(ast.getContent(), new ASTCDeclaration(TokenType.K_CHAR, name));
     }
     
+    //TODO: Function test
+    
+    @Test
+    public void testTryParseSection()
+    {
+        String name = "sectest";
+        tokens.add(new Token(TokenType.K_SECTION, "", -1));
+        tokens.add(new Token(TokenType.IDENTIFIER, name, -1));
+        tokens.add(new Token(TokenType.LBRACE, "", -1));
+        tokens.add(new Token(TokenType.RBRACE, "", -1));
+        parser = new Parser(tokens, null, false);
+        
+        AbstractSyntaxTree ast = parser.tryParseSection();
+        assertEquals(ast.getType(), ASTType.SECTION);
+        assertEquals(ast.getContent(), name);
+    }
+    
     //TODO: Test cases
 }

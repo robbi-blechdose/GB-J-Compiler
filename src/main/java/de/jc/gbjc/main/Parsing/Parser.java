@@ -78,19 +78,19 @@ public class Parser
         return null;
     }
     
-    private AbstractSyntaxTree tryParseFunction()
+    protected AbstractSyntaxTree tryParseFunction()
     {
         return null;
     }
     
-    private AbstractSyntaxTree tryParseSection()
+    protected AbstractSyntaxTree tryParseSection()
     {
         //section XXXX {
         if(pd.tokens.get(pd.i).getType() == TokenType.K_SECTION &&
                 pd.tokens.get(pd.i + 1).getType() == TokenType.IDENTIFIER &&
                 pd.tokens.get(pd.i + 2).getType() == TokenType.LBRACE)
         {
-            AbstractSyntaxTree ast = new AbstractSyntaxTree(ASTType.SECTION);
+            AbstractSyntaxTree ast = new AbstractSyntaxTree(ASTType.SECTION, pd.tokens.get(pd.i + 1).getString());
             pd.i += 3; //Consume tokens
             
             while(pd.i < pd.tokens.size())
